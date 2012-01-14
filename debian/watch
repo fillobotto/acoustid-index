@@ -1,0 +1,3 @@
+version=3
+https://github.com/lalinsky/acoustid-index/downloads .*/acoustid-index-([0-9].*)\.tar\.gz
+

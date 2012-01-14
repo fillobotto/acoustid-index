@@ -1,0 +1,16 @@
+Source: acoustid-index
+Priority: extra
+Maintainer: Lukáš Lalinský <lalinsky@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, libgtest-dev, libboost-dev, libqt4-dev
+Standards-Version: 3.9.2
+Section: database
+Homepage: https://github.com/lalinsky/acoustid-index
+Vcs-Git: git://github.com/lalinsky/acoustid-index.git
+Vcs-Browser: https://github.com/lalinsky/acoustid-index
+
+Package: acoustid-index
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: audio fingerprint search server
+ Acoustid Index is a server application intended for searching
+ in a database of Chromaprint audio fingerprints.
