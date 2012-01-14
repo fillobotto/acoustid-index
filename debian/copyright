@@ -1,4 +1,4 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=208
+Format: http://dep.debian.net/deps/dep5
 Upstream-Name: acoustid-index
 Source: https://github.com/lalinsky/acoustid-index
 
