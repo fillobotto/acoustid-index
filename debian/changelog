@@ -1,3 +1,9 @@
+acoustid-index (0~git20121014) natty; urgency=low
+
+  * New version.
+
+ -- Lukas Lalinsky <lalinsky@gmail.com>  Sun, 14 Oct 2012 11:32:39 +0200
+
 acoustid-index (0~git20120114) unstable; urgency=low
 
   * Initial version.
