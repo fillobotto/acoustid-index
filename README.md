@@ -15,6 +15,10 @@ integer arrays.
 
 [1]: http://acoustid.org/chromaprint
 
+Installation:
+- Clone repository
+- Run "cmake --build . --target install"
+
 Reindexing from the Acoustid database:
 
     $ echo "COPY (SELECT id, acoustid_extract_query(fingerprint) FROM fingerprint) TO stdout DELIMITER '|' " \
